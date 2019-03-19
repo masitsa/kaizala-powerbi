@@ -4,7 +4,7 @@
     <a class="sidebar-brand d-flex align-items-center justify-content-left"
         href="<?php echo base_url(); ?>administration/all-groups">
         <div class="sidebar-brand-icon">
-            <div class="sidebar-brand-text shadow-sm">MKOPA</div>
+            <div class="sidebar-brand-text shadow-sm">Kaizala</div>
         </div>
     </a>
     <!-- Divider -->
