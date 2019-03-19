@@ -9,9 +9,9 @@ class Kaizala_model extends CI_Model
 
     public function __construct()
     {
-        $this->application_id = "APPLICATION_ID HERE";
-        $this->application_secret = "APPLICATION_SECRET HERE";
-        $this->refresh_token = "REFRESH_TOKEN HERE";
+        $this->application_id = "7138daff-6c9f-4c69-8917-201df3d0b0e2";
+        $this->application_secret = "JP44T86MHZ";
+        $this->refresh_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmNyZWRlbnRpYWxzIjoie1wicGhvbmVOdW1iZXJcIjpcIisyNTQ3MjYxNDkzNTFcIixcImNJZFwiOlwiXCIsXCJ0ZXN0U2VuZGVyXCI6XCJmYWxzZVwiLFwiYXBwTmFtZVwiOlwiY29tLm1pY3Jvc29mdC5tb2JpbGUua2FpemFsYWFwaVwiLFwiYXBwbGljYXRpb25JZFwiOlwiNzEzOGRhZmYtNmM5Zi00YzY5LTg5MTctMjAxZGYzZDBiMGUyXCIsXCJwZXJtaXNzaW9uc1wiOlwiOC40XCIsXCJhcHBsaWNhdGlvblR5cGVcIjotMSxcImRhdGFcIjpcIntcXFwiVGVuYW50SWRcXFwiOlxcXCJhZmRmMjk3Zi1iNzEzLTQ1Y2UtYTA3Mi1lY2EyYTBlYzA1MzNcXFwiLFxcXCJPMzY1VXNlcklkXFxcIjpcXFwiNTkxNzA5MjQtNDMyYS00NTkyLWFkNGMtNDIxMGExNzk2NzkwXFxcIixcXFwiSXNUZW5hbnRBZG1pblxcXCI6XFxcIlRydWVcXFwiLFxcXCJPMzY1VXNlckVtYWlsSWRcXFwiOlxcXCJhbHZhcm8ubWFzaXRzYUBuYW55dWtpYXBwZmFjdG9yeS5vbm1pY3Jvc29mdC5jb21cXFwiLFxcXCJPMzY1VXNlck5hbWVcXFwiOlxcXCJBbHZhcm8gTWFzaXRzYVxcXCIsXFxcIkFwcE5hbWVcXFwiOlxcXCJQQkkgUmVwb3J0XFxcIn1cIn0iLCJ1aWQiOiJNb2JpbGVBcHBzU2VydmljZTo4NmZlYjUyYy0xNGQ1LTRhN2QtOThkYS1iYTJhYjQ0MGYwOGYiLCJ2ZXIiOiIyIiwibmJmIjoxNTUyOTc5MzEyLCJleHAiOjE1ODQ1MTUzMTIsImlhdCI6MTU1Mjk3OTMxMiwiaXNzIjoidXJuOm1pY3Jvc29mdDp3aW5kb3dzLWF6dXJlOnp1bW8iLCJhdWQiOiJ1cm46bWljcm9zb2Z0OndpbmRvd3MtYXp1cmU6enVtbyJ9.aWYXUeNqGIpbiWsv84t6Wgm-1Mb2c421Ra_lspcBZvI";
 
         $this->access_token_url = "https://kms.kaiza.la/v1/accessToken";
     }
